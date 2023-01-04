@@ -1,40 +1,42 @@
-# e4040_2022Fall_Project_AHSN_am5964-hsp2122-ska2145
+# MobileNet_V1
 > This project aims to evaluate the MobileNet proposed in the “MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications” paper. Also, do some optimization to the model.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Dependencies](#Dependencies)
 * [Implementation](#implementation)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+* [My Contribution](#My_Contribution)
 
 
-## General Information
+## General Information 🧐
 - The project is done by:
 Safeyah Alshemali(ska2145) - Hannah Portes(hsp2122) - Aparna Muraleekrishnan(am5964)
 Based on Paper:
 MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications link
 
-## Technologies Used
-- Tensorflow 
-- Keras
-- Python
+## Dependencies 💿
+- numpy
+- pandas
+- time 
+- os
+- matplotlib.pyplot
+- Tensorflow/Keras
+- Jupyter Notebook
 
 
-## Implementation
+## Implementation 👩🏻‍💻
 Three implementations have been done
 - MobileNet vs CNN ( Reproduced Model)
 - Reduced MobileNet vs CNN
 - Optimized MobileNet vs CNN
 
-## Contact
-- Model_Implementation: it has all the model Jupyter Notebook
-- Saved models: it contains the optimized model
-- Optimized_Model_Experiments: it contains most of the experiments which are presented in the result section of the report
-- Stanford_dogs_Experiments: it contains most of the experiments on the Stanford dog dataset
+## My Contribution 🦾
+- I built the basic model (MobileNet_Vs_CNN.ipynb)
+- Redesign the model to deal with overfitting problem
+- Optimze the model (3_Optimized_MobileNet_Vs_Equivalent_CNN.ipynb)
 
-# Organization of this directory
+## Organization of this directory 📂
 To be populated by students, as shown in previous assignments.
 Create a directory/file tree
 
@@ -70,3 +72,9 @@ Create a directory/file tree
 │   └── Screen Shot 2022-12-18 at 8.43.26 PM.png
 └── E4040.2022Fall.AHSN.report.ska2145.hsp2122.am5964.pdf
 ```
+
+## Acknowledgments ❇️
+
+Thanks to my team parnterns for their hard work @apm98 and @hsp2122.
+
+
